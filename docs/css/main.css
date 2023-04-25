@@ -1,0 +1,232 @@
+header {
+    align-items: center;
+    display: flex;
+    padding: 1.875rem;
+} /*classe van toepassing op elke pagina*/
+
+header img {
+    display: flex;
+} /*classe van toepassing op elke pagina*/
+
+img.logo {
+    max-width: 5rem;
+} /*classe van toepassing op elke pagina*/
+
+header h1 {
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
+    margin: 1rem;
+    text-shadow: 0 .3125rem .0625rem red;
+} /*classe van toepassing op elke pagina*/
+
+.tenor-gif-embed {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+} /*classe te vinden in index.html*/
+
+.tenor-gif-embed {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+} /*classe te vinden in index.html*/
+
+nav {
+    flex-shrink: 0;
+    margin-left: auto;
+} /*classe te vinden in index.html*/
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+} /*classe te vinden in index.html*/
+
+nav ul li {
+    margin: 0 .625rem;
+}/*classe te vinden in index.html*/
+
+.btn-regular {
+    background-color: hsl(208, 32%, 51%);
+    border: 5px solid hsl(0, 100%, 50%);
+    border-radius: .375rem;
+    box-shadow: -0.3125rem 0.3125rem .9375rem hsl(39, 92%, 59%);
+    display: inline-block;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    padding: 1.25rem 1.875rem;
+} /*classe te vinden in elke pagina*/
+
+.btn-regular:hover {
+    background-color: hsl(39, 92%, 59%);
+} /*classe te vinden in elke pagina*/
+
+a:hover {
+    background: hsla(0, 0%, 0%, 0.3);
+} /*classe van toepassing op elke pagina*/
+
+.text {
+    background-color: hsl(39, 91%, 49%);
+    border: 5px solid hsl(208, 32%, 51%);
+    border-radius: 6px;
+    box-shadow: -5px 5px 15px rgba(255, 0, 0, 1);
+    color: black;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.5;
+    margin: 15px 0;
+    padding: 50px;
+    text-align: center;
+    /*text-shadow: 0 4px 1px rebeccapurple;*/
+} /*classe van toepassing op elke pagina*/
+
+.team-swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 14rem);
+    justify-content: space-between;
+    row-gap: 6rem;
+} /*classe van toepassing op de index.html pagina*/
+
+.team-member img {
+    border-radius: 50%;
+    display: block;
+    height: 11rem;
+    margin: 0 auto 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11rem;
+} /*classe van toepassing op de index.html pagina*/
+
+.team-member .member-name {
+    color: white;
+    font-size: .9rem;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+} /*classe van toepassing op de index.html pagina*/
+
+.team-member .member-position {
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    opacity: .5;
+    text-align: center;
+} /*classe van toepassing op de index.html pagina*/
+
+iframe.video {
+    border: .3125rem solid hsl(208, 32%, 51%);
+    border-radius: .375rem;
+    box-shadow: -0.3125rem .3125rem .9375rem rgba(255, 0, 0, 1);
+    height: 20.125rem;
+    margin: 1rem;
+    width: 37.6%;
+} /*classe van toepassing op de projecten.html pagina*/
+
+h1.info {
+    background-color: hsl(39, 92%, 59%);
+    border: .3125rem solid hsl(208, 32%, 51%);
+    border-radius: .375rem;
+    box-shadow: -0.3125rem .3125rem .9375rem rgba(255, 0, 0, 1);
+    color: black;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    margin: 5rem 0;
+    text-align: center;
+    text-shadow: 0 .125rem .0625rem red;
+} /*classe van toepassing op elke pagina*/
+
+.article-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+} /*classe van toepassing op de projecten.html pagina*/
+
+.article-row div {
+    background-color: hsl(39, 92%, 59%);
+    border: .3125rem solid hsl(208, 32%, 51%);
+    border-radius: .375rem;
+    box-shadow: -0.3125rem .3125rem .9375rem rgba(255, 0, 0, 1);
+    color: black;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0rem 0;
+    padding: 1.25rem;
+    text-shadow: 0 .125rem .0625rem red;
+    width: 33%;
+} /*classe van toepassing op de projecten.html pagina*/
+
+img.game-picture {
+    border: .3125rem solid hsl(208, 32%, 51%);
+    border-radius: .375rem;
+    max-width: 100%;
+} /*classe van toepassing op de projecten.html pagina*/
+
+iframe.map {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+} /*classe van toepassing op de contact.html pagina*/
+
+.contact-two {
+    background-color: hsl(39, 91%, 49%);
+    border: .3125rem solid hsl(208, 32%, 51%);
+    border-radius: .375rem;
+    box-shadow: -0.3125rem .3125rem .9375rem rgba(255, 0, 0, 1);
+    color: black;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    margin: 0rem 0;
+    max-width: 118.8rem;
+    padding: 1rem;
+    text-shadow: 0 .125rem .0625rem red;
+} /*classe van toepassing op de projecten.html pagina*/
+
+.contact-two ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: .9375rem 0;
+    padding: 1.25rem;
+} /*classe van toepassing op de projecten.html pagina*/
+
+.contact-two ul li {
+    width: 100%;
+} /*classe van toepassing op de projecten.html pagina*/
+
+.contact-two ul li.data {
+    flex-grow: 1;
+    text-align: center;
+    width: 30%;
+} /*classe van toepassing op de projecten.html pagina*/
+
+a.two {
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    color: black;
+    font-weight: 100;
+    letter-spacing: .125rem;
+    padding: 1.25rem 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 .125rem .0625rem red;
+    transition: all 0.5s;
+    width: 100%;
+} /*classe van toepassing op de projecten.html pagina*/
